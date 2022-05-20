@@ -1,0 +1,69 @@
+.sidebar{
+  background-color: #1E2148;
+  flex: 1;
+  height: 100vh;
+  color: #FFFFFF;
+  font: normal normal 400 20px/28px Bahnschrift;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  border-bottom: 0.1px solid lightgray;
+  /* padding-bottom: 5px; */
+}
+
+/* Logo styling */
+.top img{
+  width: 50px;
+  height: 50px;
+}
+
+.logo{
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  width: 95px;
+  height: 32px;
+  margin: 0 0 18px 9px;
+  color: #4CDB6D;
+  letter-spacing: 0px;
+}
+
+/* icon styling */
+.icon{
+  color: #FFFFFF;
+  font: normal normal 400 20px/28px Bahnschrift;
+}
+
+/* Center styling */
+.center ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+li span{
+  margin-left: 10px;
+}
+
+li:hover{
+  border-right: 0.5px solid white;
+  color: #FFFFFF;
+  font: normal normal 400 25px/35px Bahnschrift;
+}
+
+/* Bottom Styling */
+.bottom{
+  margin-top: 35vh;
+  border-top: 0.1px solid lightgray;
+}
