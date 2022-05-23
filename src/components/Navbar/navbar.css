@@ -1,7 +1,7 @@
 /* Entire Navbar style */
 .navbar{
   width: 100%;
-  height: 50px;
+  height: 80px;
 }
 
 .navWrapper{
@@ -15,12 +15,32 @@
 
 /* Search bar styling */
 .searchWrapper{
+  background: #56586E66 0% 0% no-repeat padding-box;
   width: 35vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #333;
-  border-radius: 15px;
+  border: 1px solid #EEDFDF45;
+  height: 25px;
+  border-radius: 7px;
+  padding: 3px 10px;
+}
+
+/* Notification styling */
+.notificWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notif_icon{
+  background: #56586E66 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+  font: normal normal 400 20px/28px Bahnschrift;
+  border: 1px solid #EEDFDF45;
+  height: inherit;
+  border-radius: 7px;
+  margin-right: 30px;
 }
 
 input{
