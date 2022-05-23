@@ -67,7 +67,10 @@ li:hover{
   border-right: 0.5px solid white;
   color: #FFFFFF;
   font: normal normal 400 20px/25px Bahnschrift;
-  background-color: #B51D8D;
+}
+
+li:hover .icon{
+    background-color: #B51D8D;
 }
 
 /* Bottom Styling */
