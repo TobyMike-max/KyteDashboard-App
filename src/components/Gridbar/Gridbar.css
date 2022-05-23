@@ -1,0 +1,50 @@
+.grid{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+  'balance myAccounts myAccounts'
+  'market quickActions news'
+  'recentActivity quickActions news';
+}
+
+.balance{
+  grid-area: balance;
+  background: #56586E66 0% 0% no-repeat padding-box;
+  min-height: 200px;
+  border-radius: 6px;
+}
+
+.myAccounts{
+  grid-area: myAccounts;
+  background: #56586E66 0% 0% no-repeat padding-box;
+  min-height: 200px;
+  border-radius: 6px;
+}
+
+.market{
+  grid-area: market;
+  background: #56586E66 0% 0% no-repeat padding-box;
+  min-height: 150px;
+  border-radius: 6px;
+}
+
+.quickActions{
+  grid-area: quickActions;
+  background: #56586E66 0% 0% no-repeat padding-box;
+  min-height: 250px;
+  border-radius: 6px;
+}
+
+.news{
+  grid-area: news;
+  background: #56586E66 0% 0% no-repeat padding-box;
+  min-height: 250px;
+  border-radius: 6px;
+}
+
+.recentActivity{
+  grid-area: recentActivity;
+  background: #56586E66 0% 0% no-repeat padding-box;
+  min-height: 100px;
+  border-radius: 6px;
+}
