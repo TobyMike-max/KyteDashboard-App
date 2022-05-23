@@ -3,12 +3,12 @@ import './sidebar.css';
 import logo from '../component.png';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import StoreIcon from '@mui/icons-material/Store';
-import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-import InsertChartIcon from '@mui/icons-material/InsertChart';
-import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
-import SettingsApplicationsIcon from '@mui/icons-material/SettingsApplications';
-import ExitToAppIcon from '@mui/icons-material/ExitToApp';
+import BarChartIcon from '@mui/icons-material/BarChart';
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import SettingsIcon from '@mui/icons-material/Settings';
+import LogoutIcon from '@mui/icons-material/Logout';
 
 const Sidebar = () => {
   return (
@@ -29,7 +29,7 @@ const Sidebar = () => {
             <span>Market</span>
           </li>
           <li>
-            <LocalShippingIcon className="icon"/>
+            <CurrencyExchangeIcon className="icon"/>
             <span>Exchange</span>
           </li>
           <li>
@@ -37,11 +37,11 @@ const Sidebar = () => {
             <span>My Accounts</span>
           </li>
           <li>
-            <InsertChartIcon className="icon"/>
+            <BarChartIcon className="icon"/>
             <span>Reports</span>
           </li>
           <li>
-            <AccountCircleOutlinedIcon className="icon"/>
+            <HelpOutlineIcon className="icon"/>
             <span>Help</span>
           </li>
         </ul>
@@ -49,11 +49,11 @@ const Sidebar = () => {
 
       <div className="bottom">
       <li>
-        <SettingsApplicationsIcon className="icon"/>
+        <SettingsIcon className="icon"/>
         <span>Settings</span>
       </li>
       <li>
-        <ExitToAppIcon className="icon"/>
+        <LogoutIcon className="icon"/>
         <span>Logout</span>
       </li>
       </div>
