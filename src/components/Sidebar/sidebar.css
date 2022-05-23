@@ -1,9 +1,8 @@
 .sidebar{
   background-color: #1E2148;
-  flex: 1;
-  height: 100vh;
+  flex: 1.1;
+  height: 100%;
   color: #FFFFFF;
-  font: normal normal 400 20px/28px Bahnschrift;
 }
 
 .top{
@@ -34,8 +33,14 @@
 
 /* icon styling */
 .icon{
+  background: #56586E66 0% 0% no-repeat padding-box;
   color: #FFFFFF;
-  font: normal normal 400 20px/28px Bahnschrift;
+  font: normal normal 400 10px/15px Bahnschrift;
+  border: 1px solid #EEDFDF45;
+  border-radius: 7px;
+  /* opacity: 1; */
+  width: 50px;
+  height: 50px;
 }
 
 /* Center styling */
@@ -50,16 +55,19 @@ li{
   align-items: center;
   padding: 5px;
   cursor: pointer;
+  /* margin-top: 7px; */
 }
 
 li span{
   margin-left: 10px;
+  opacity: 0.5;
 }
 
 li:hover{
   border-right: 0.5px solid white;
   color: #FFFFFF;
-  font: normal normal 400 25px/35px Bahnschrift;
+  font: normal normal 400 20px/25px Bahnschrift;
+  background-color: #B51D8D;
 }
 
 /* Bottom Styling */
