@@ -7,7 +7,8 @@ const HomeContainer = () => {
   return (
     <div className="homeContainer">
       <Navbar />
-      <span style={{color:'#FFFFFF', marginTop:'5px', fontWeight:'400'}}>Dashboard</span>
+      <div style={{color:'#FFFFFF', marginTop:'2px', fontWeight:'500',
+                    fontSize: '1.2rem', marginBottom: '10px'}}>Dashboard</div>
       <Gridbar />
     </div>
   )
