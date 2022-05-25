@@ -2,11 +2,20 @@ import React from 'react'
 import './Gridbar.css'
 import NorthEastIcon from '@mui/icons-material/NorthEast';
 import SouthEastIcon from '@mui/icons-material/SouthEast';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import CreditCardIcon from '@mui/icons-material/CreditCard';
+import LeakRemoveIcon from '@mui/icons-material/LeakRemove';
+import LocalAtmIcon from '@mui/icons-material/LocalAtm';
+import PointOfSaleIcon from '@mui/icons-material/PointOfSale';
+import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
+import PieChartIcon from '@mui/icons-material/PieChart';
+
 
 const Gridbar = () => {
   return (
     <div className="grid">
       <div className="balance">
+      
         <div className="top-left">
           <span className="text">Balance</span>
           <span className="big_dols">$6,545</span>
@@ -62,27 +71,27 @@ const Gridbar = () => {
         <span className="text">Quick Actions</span>
         <div className="mini-grid">
           <div className="mn-style">
-            Icon
+            <CreditCardIcon />
             <span>Pay Bill</span>
           </div>
           <div className="mn-style">
-            Icon
+            <LeakRemoveIcon />
             <span>Transfer</span>
           </div>
           <div className="mn-style">
-            Icon
+            <LocalAtmIcon />
             <span>Receive</span>
           </div>
           <div className="mn-style">
-            Icon
+            <PointOfSaleIcon />
             <span>Find ATM</span>
           </div>
           <div className="mn-style">
-            Icon
+            <CardGiftcardIcon />
             <span>Voucher</span>
           </div>
           <div className="mn-style">
-            Icon
+            <PieChartIcon />
             <span>Reports</span>
           </div>
         </div>
@@ -90,6 +99,35 @@ const Gridbar = () => {
 
       <div className="news">
         <span className="text">News</span>
+        <div className="horizon">
+          <p>
+            Major cryptocurrencies continued
+            the downward trend, trading with
+            cuts on Thursday
+          </p>
+          <KeyboardArrowRightIcon />
+        </div>
+        <div className="horizon">
+          <p>
+            DubaiCoin scammed the cryptocurrency
+            market in such a way that no cryptocurrency
+            exchange is...
+          </p>
+          <KeyboardArrowRightIcon />
+        </div>
+        <div className="horizon">
+          <p>
+            Did a cryptocurrency just rally 40,000,000%
+            to become 4t largest digital asset?
+          </p>
+          <KeyboardArrowRightIcon />
+        </div>
+        <div className="horizon">
+          <p>
+            Cassll to be first NASCAR driver
+          </p>
+          <KeyboardArrowRightIcon />
+        </div>
       </div>
 
       <div className="recentActivity">
@@ -100,7 +138,7 @@ const Gridbar = () => {
             <span>$23.30</span>
           </div>
           <div>
-            <span>Today<span>
+            <span>Today</span>
           </div>
         </div>
         <div>
@@ -109,7 +147,7 @@ const Gridbar = () => {
             <span>$23.50</span>
           </div>
           <div>
-            <span>Today<span>
+            <span>Today</span>
           </div>
         </div>
         <div>
@@ -118,7 +156,7 @@ const Gridbar = () => {
             <span>$14.00</span>
           </div>
           <div>
-            <span>14 Jan 21<span>
+            <span>14 Jan 21</span>
           </div>
         </div>
         <div>
@@ -127,7 +165,7 @@ const Gridbar = () => {
             <span>$12.25</span>
           </div>
           <div>
-            <span><span>
+            <span></span>
           </div>
         </div>
       </div>
