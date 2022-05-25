@@ -72,11 +72,15 @@
   padding: 10px;
 }
 
+.quickActions .text{
+  padding-bottom: 20px;
+}
+
 .mini-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
   grid-gap: 10px;
-  height: 250px;
+  min-height: 300px;
 }
 
 .mn-style{
@@ -86,6 +90,11 @@
   align-items: center;
   background-color: #1E2148;
   border-radius: 7px;
+  color: white;
+}
+
+.mn-style span{
+  margin-top: 15px;
 }
 
 /* News Styling */
@@ -93,10 +102,27 @@
   grid-area: news;
   background: #56586E66 0% 0% no-repeat padding-box;
   min-height: 250px;
+  max-height: 365px;
   border-radius: 6px;
   padding: 10px;
+  width: inherit;
+  overflow-y: scroll;
+  box-sizing: border-box;
 }
 
+.horizon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 0 10px;
+  border-bottom: 1px solid #EEDFDF45;
+  /* background-color: orange; */
+}
+
+.news p{
+  width: 170px;
+}
 /* Recent Activity Styling */
 .recentActivity{
   grid-area: recentActivity;
