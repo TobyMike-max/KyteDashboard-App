@@ -52,25 +52,25 @@ const Gridbar = () => {
       <div className="myAccounts">
         <span className="text">My Accounts</span>
         <div className="bar_chart">
-          <div>
+          <div className="bitcoin">
             Icons
             Bitcoin
             $2,636
             0.068 BTC
           </div>
-          <div>
+          <div className="ether">
             Icons
             Ethereum
             $2,509
             1.09 ETH
           </div>
-          <div>
+          <div className="ripple">
             Icons
             Ripple
             $582
             694.01 XRP
           </div>
-          <div>
+          <div className="doge">
             Icons
             Dogecoin
             $818
