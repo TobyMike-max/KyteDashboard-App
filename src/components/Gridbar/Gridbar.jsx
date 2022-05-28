@@ -15,25 +15,37 @@ const Gridbar = () => {
   return (
     <div className="grid">
       <div className="balance">
-      
-        <div className="top-left">
-          <span className="text">Balance</span>
-          <span className="big_dols">$6,545</span>
-          <NorthEastIcon /> 9%
+        <div className="topBalance">
+          <div className="top-left">
+            <span className="text">Balance</span>
+            <span className="big_dols">$6,545</span>
+            <span className="tiny_text" style={{color:'green',
+              paddingLeft:'5px'}}>
+              <NorthEastIcon style={{fontSize:'10px'}}/> 9%
+            </span>
+          </div>
+          <div className="top-right">
+            <span className="text">Transaction</span>
+            <span className="small_dols">$1,220</span>
+          </div>
         </div>
-        <div className="top-right">
-          <span className="text">Transaction</span>
-          <span className="small_dols">$1,220</span>
-        </div>
-        <div className="bottom-left">
-          <span className="text">Income</span>
-          <span className="small_dols">$2,450</span>
-          <NorthEastIcon /> 2%
-        </div>
-        <div className="bottom-right">
-          <span className="text">Expenses</span>
-          <span className="small_dols">$1,230</span>
-          <SouthEastIcon /> 4.5%
+
+        <div className="bottomBalance">
+          <div className="bottom-left">
+            <span className="text">Income</span>
+            <span className="small_dols">$2,450</span>
+            <span className="tiny_text" style={{color:'green',
+              paddingLeft:'35px'}}>
+              <NorthEastIcon style={{fontSize:'10px'}} /> 2%
+            </span>
+          </div>
+          <div className="bottom-right">
+            <span className="text">Expenses</span>
+            <span className="small_dols">$1,230</span>
+            <span className="tiny_text" style={{color:'red', paddingLeft:'35px'}}>
+              <SouthEastIcon style={{fontSize:'10px'}} /> 4.5%
+            </span>
+          </div>
         </div>
       </div>
 
@@ -105,7 +117,7 @@ const Gridbar = () => {
             the downward trend, trading with
             cuts on Thursday
           </p>
-          <KeyboardArrowRightIcon />
+          <KeyboardArrowRightIcon style={{cursor:'pointer'}}/>
         </div>
         <div className="horizon">
           <p>
@@ -113,20 +125,20 @@ const Gridbar = () => {
             market in such a way that no cryptocurrency
             exchange is...
           </p>
-          <KeyboardArrowRightIcon />
+          <KeyboardArrowRightIcon style={{cursor:'pointer'}}/>
         </div>
         <div className="horizon">
           <p>
             Did a cryptocurrency just rally 40,000,000%
             to become 4t largest digital asset?
           </p>
-          <KeyboardArrowRightIcon />
+          <KeyboardArrowRightIcon style={{cursor:'pointer'}}/>
         </div>
         <div className="horizon">
           <p>
             Cassll to be first NASCAR driver
           </p>
-          <KeyboardArrowRightIcon />
+          <KeyboardArrowRightIcon style={{cursor:'pointer'}}/>
         </div>
       </div>
 
