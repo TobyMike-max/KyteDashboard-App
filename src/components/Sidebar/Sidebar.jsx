@@ -4,7 +4,7 @@ import logo from '../component.png';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import StoreIcon from '@mui/icons-material/Store';
 import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
-import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
+import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import SettingsIcon from '@mui/icons-material/Settings';
@@ -33,7 +33,7 @@ const Sidebar = () => {
             <span>Exchange</span>
           </li>
           <li>
-            <PersonOutlineIcon className="icon"/>
+            <AccountBalanceWalletIcon className="icon"/>
             <span>My Accounts</span>
           </li>
           <li>
