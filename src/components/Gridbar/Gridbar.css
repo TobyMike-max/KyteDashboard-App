@@ -8,19 +8,78 @@
   'recentActivity quickActions news';
 }
 
-/* Styling for the first grid component */
+/* Styling for balance component */
 .balance{
   grid-area: balance;
   background: #56586E66 0% 0% no-repeat padding-box;
-  min-height: 200px;
+  min-height: 150px;
+  /* width: 100%; */
   border-radius: 6px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  /* justify-content: center; */
+  grid-template-rows: 1fr 1fr;
+  /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+  padding: 10px;
   align-items: center;
 }
 
-/* Top text styling */
+.topBalance{
+  display: flex;
+  /* justify-content: space-between; */
+  }
+
+.bottomBalance{
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+}
+
+.top-left{
+  height: 70px;
+  width: 50%;
+  border-right: 1px solid #EEDFDF45;
+  border-bottom: 1px solid #EEDFDF45;
+  margin: 5px;
+  /* padding-right: 5px; */
+}
+
+.top-right{
+  height: 70px;
+  width: 50%;
+  margin: 5px;
+  border-bottom: 1px solid #EEDFDF45;
+}
+
+.bottom-left{
+  height: 70px;
+  width: 50%;
+  border-right: 1px solid #EEDFDF45;
+  margin: 5px;
+  /* padding-right: 5px; */
+}
+
+.bottom-right{
+  height: 70px;
+  width: 50%;
+  margin: 5px;
+  margin-left: 2px;
+}
+
+.small_dols{
+  font-size: 1.25rem;
+  color: white;
+}
+
+.big_dols{
+  color: white;
+  font-size: 1.9rem;
+}
+
+.tiny_text{
+  font-size: 10px;
+  color: white;
+}
+
+/* Text styling */
 .text{
   display: block;
   color: #EEDFDF45;
@@ -28,42 +87,26 @@
   padding: 5px 0px;
 }
 
-.top-left{
-  border-bottom: 1px solid #EEDFDF45;
-}
-
-.top-right{
-  border-left: 1px solid #EEDFDF45;
-  border-bottom: 1px solid #EEDFDF45;
-}
-
-.bottom-left{
-}
-
-.bottom-right{
-  border-left: 1px solid #EEDFDF45;
-}
-
-
-/* My Accounts Styling */
+/*My Accounts Styling */
 .myAccounts{
   grid-area: myAccounts;
-  background: #56586E66 0% 0% no-repeat padding-box;
-  min-height: 200px;
-  border-radius: 6px;
-  padding: 10px;
-}
-
-/* Market styling */
-.market{
-  grid-area: market;
   background: #56586E66 0% 0% no-repeat padding-box;
   min-height: 150px;
   border-radius: 6px;
   padding: 10px;
 }
 
-/* Quick Action Styling */
+/*Market styling */
+.market{
+  grid-area: market;
+  background: #56586E66 0% 0% no-repeat padding-box;
+  min-height: 150px;
+  /* width: 100%; */
+  border-radius: 6px;
+  padding: 10px;
+}
+
+/*Quick Action Styling */
 .quickActions{
   grid-area: quickActions;
   background: #56586E66 0% 0% no-repeat padding-box;
@@ -91,6 +134,7 @@
   background-color: #1E2148;
   border-radius: 7px;
   color: white;
+  cursor: pointer;
 }
 
 .mn-style span{
@@ -114,15 +158,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  padding: 0 10px;
+  width: 100%;
+  padding: 0 5px;
   border-bottom: 1px solid #EEDFDF45;
+  color: #EEDFDF45;
   /* background-color: orange; */
 }
 
-.news p{
+.news .horizon p{
   width: 170px;
+  padding-right: 0px;
 }
+
 /* Recent Activity Styling */
 .recentActivity{
   grid-area: recentActivity;
@@ -130,4 +177,5 @@
   min-height: 100px;
   border-radius: 6px;
   padding: 10px;
+  /* width: 100%; */
 }
