@@ -2,7 +2,9 @@
   background-color: #1E2148;
   flex: 1.1;
   height: 120%;
+  /* height: 134vh; */
   color: #FFFFFF;
+  padding: 10px;
 }
 
 .top{
@@ -10,7 +12,7 @@
   align-items: center;
   justify-content: center;
   height: 80px;
-  border-bottom: 0.1px solid lightgray;
+  border-bottom: 0.1px solid #EEDFDF45;
   /* padding-bottom: 5px; */
 }
 
@@ -35,7 +37,7 @@
 .icon{
   background: #56586E66 0% 0% no-repeat padding-box;
   color: #FFFFFF;
-  font: normal normal 400 10px/15px Bahnschrift;
+  font: normal normal 400 8px Bahnschrift;
   border: 1px solid #EEDFDF45;
   border-radius: 7px;
   /* opacity: 1; */
@@ -55,7 +57,7 @@ li{
   align-items: center;
   padding: 5px;
   cursor: pointer;
-  /* margin-top: 7px; */
+  margin-top: 9px;
 }
 
 li span{
@@ -76,5 +78,5 @@ li:hover .icon{
 /* Bottom Styling */
 .bottom{
   margin-top: 35vh;
-  border-top: 0.1px solid lightgray;
+  border-top: 0.1px solid #EEDFDF45;
 }
