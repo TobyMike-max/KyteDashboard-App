@@ -101,21 +101,21 @@ const Gridbar = () => {
             <span style={{fontSize:'11px', color:'#888FEC'}}>ETH TO USD</span>
             <span>2415.75</span>
             <span className="tiny_text" style={{color:'green'}}>
-              <NorthEastIcon style={{fontSize:'11px'}}/>2.9%
+              <NorthEastIcon style={{fontSize:'11px', marginRight:'4px'}}/>2.9%
             </span>
           </div>
           <div className="market_flex">
             <span style={{fontSize:'11px', color:'#E18EC5'}}>XRP TO USD</span>
             <span>0.83</span>
             <span className="tiny_text" style={{color:'green'}}>
-              <NorthEastIcon style={{fontSize:'11px'}}/>21%
+              <NorthEastIcon style={{fontSize:'11px', marginRight:'4px'}}/>21%
             </span>
           </div>
           <div className="market_flex">
             <span style={{fontSize:'11px', color:'#DC9F6F'}}>DOGE TO USD</span>
             <span>0.31</span>
             <span className="tiny_text" style={{color:'red'}}>
-              <SouthEastIcon style={{fontSize:'11px'}} />5.5%
+              <SouthEastIcon style={{fontSize:'11px', marginRight:'4px'}} />5.5%
             </span>
           </div>
         </div>
