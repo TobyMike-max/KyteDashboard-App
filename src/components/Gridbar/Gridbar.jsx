@@ -190,41 +190,41 @@ const Gridbar = () => {
           <div className="activ">
             <div className="flex_column">
               <span>BTC</span>
-              <span>Sent</span>
+              <span className="smalls">Sent</span>
               <span>$23.30</span>
             </div>
-            <div className="flex_column">
+            <div className="flex_column smalls">
               <span>Today</span>
             </div>
           </div>
           <div className="activ">
             <div className="flex_column">
               <span>BTC</span>
-              <span>Received</span>
+              <span className="smalls">Received</span>
               <span>$23.50</span>
             </div>
-            <div className="flex_column">
+            <div className="flex_column smalls">
               <span>Today</span>
             </div>
           </div>
           <div className="activ">
             <div className="flex_column">
               <span>XRP</span>
-              <span>Received</span>
+              <span className="smalls">Received</span>
               <span>$14.00</span>
             </div>
-            <div className="flex_column">
+            <div className="flex_column smalls">
               <span>14 Jan 21</span>
             </div>
           </div>
           <div className="activ">
             <div className="flex_column">
               <span>XRP</span>
-              <span>Received</span>
+              <span className="smalls">Received</span>
               <span>$12.25</span>
             </div>
-            <div className="flex_column">
-              <span></span>
+            <div className="flex_column smalls">
+              <span>30 May 22</span>
             </div>
           </div>
         </div>
