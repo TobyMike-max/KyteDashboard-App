@@ -91,7 +91,7 @@ const Gridbar = () => {
         <span className="text">Market</span>
         <div className="market_container">
           <div className="market_flex">
-            <span style={{fontSize:'8.5px'}}>BTC TO USD</span>
+            <span style={{fontSize:'8.5px', color:'#71D2B4'}}>BTC TO USD</span>
             <span>3885.00</span>
             <span className="tiny_text" style={{color:'red'}}>
               <SouthEastIcon style={{fontSize:'10px'}} />23%
