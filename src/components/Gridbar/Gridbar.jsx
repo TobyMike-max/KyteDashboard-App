@@ -91,31 +91,31 @@ const Gridbar = () => {
         <span className="text">Market</span>
         <div className="market_container">
           <div className="market_flex">
-            <span style={{fontSize:'8.5px', color:'#71D2B4'}}>BTC TO USD</span>
+            <span style={{fontSize:'11px', color:'#71D2B4'}}>BTC TO USD</span>
             <span>3885.00</span>
             <span className="tiny_text" style={{color:'red'}}>
-              <SouthEastIcon style={{fontSize:'10px'}} />23%
+              <SouthEastIcon style={{fontSize:'11px'}} />23%
             </span>
           </div>
           <div className="market_flex">
-            <span style={{fontSize:'8.5px', color:'#888FEC'}}>ETH TO USD</span>
+            <span style={{fontSize:'11px', color:'#888FEC'}}>ETH TO USD</span>
             <span>2415.75</span>
             <span className="tiny_text" style={{color:'green'}}>
-              <NorthEastIcon style={{fontSize:'10px'}}/>2.9%
+              <NorthEastIcon style={{fontSize:'11px'}}/>2.9%
             </span>
           </div>
           <div className="market_flex">
-            <span style={{fontSize:'8.5px', color:'#E18EC5'}}>XRP TO USD</span>
+            <span style={{fontSize:'11px', color:'#E18EC5'}}>XRP TO USD</span>
             <span>0.83</span>
             <span className="tiny_text" style={{color:'green'}}>
-              <NorthEastIcon style={{fontSize:'10px'}}/>21%
+              <NorthEastIcon style={{fontSize:'11px'}}/>21%
             </span>
           </div>
           <div className="market_flex">
-            <span style={{fontSize:'8.5px'}}>DOGE TO USD</span>
+            <span style={{fontSize:'11px', color:'#DC9F6F'}}>DOGE TO USD</span>
             <span>0.31</span>
             <span className="tiny_text" style={{color:'red'}}>
-              <SouthEastIcon style={{fontSize:'10px'}} />5.5%
+              <SouthEastIcon style={{fontSize:'11px'}} />5.5%
             </span>
           </div>
         </div>
