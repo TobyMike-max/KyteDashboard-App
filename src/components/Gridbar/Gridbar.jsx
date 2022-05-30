@@ -81,7 +81,7 @@ const Gridbar = () => {
           <div className="pie_chart">
             <div className="circle">
               <span style={{fontSize:'20px', color:'white', opacity:'0.5'}}>32%</span>
-              <span style={{fontSize:'11px'}}>XRP</span>
+              <span style={{fontSize:'11px', color:'#E18EC5'}}>XRP</span>
             </div>
           </div>
         </div>
