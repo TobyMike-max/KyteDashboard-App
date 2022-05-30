@@ -313,3 +313,7 @@
   align-items: flex-start;
   margin-right: 5px;
 }
+
+.smalls{
+  font-size: 0.7rem;
+}
