@@ -105,7 +105,7 @@ const Gridbar = () => {
             </span>
           </div>
           <div className="market_flex">
-            <span style={{fontSize:'8.5px'}}>XRP TO USD</span>
+            <span style={{fontSize:'8.5px', color:'#E18EC5'}}>XRP TO USD</span>
             <span>0.83</span>
             <span className="tiny_text" style={{color:'green'}}>
               <NorthEastIcon style={{fontSize:'10px'}}/>21%
