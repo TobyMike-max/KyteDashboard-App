@@ -98,7 +98,7 @@ const Gridbar = () => {
             </span>
           </div>
           <div className="market_flex">
-            <span style={{fontSize:'8.5px'}}>ETH TO USD</span>
+            <span style={{fontSize:'8.5px', color:'#888FEC'}}>ETH TO USD</span>
             <span>2415.75</span>
             <span className="tiny_text" style={{color:'green'}}>
               <NorthEastIcon style={{fontSize:'10px'}}/>2.9%
