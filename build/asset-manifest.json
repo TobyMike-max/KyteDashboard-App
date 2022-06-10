@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/KyteDashboard-App/static/css/main.83141aba.css",
+    "main.js": "/KyteDashboard-App/static/js/main.c7e9c91d.js",
+    "static/media/component.png": "/KyteDashboard-App/static/media/component.0621b8bbc610908cb18b.png",
+    "index.html": "/KyteDashboard-App/index.html",
+    "main.83141aba.css.map": "/KyteDashboard-App/static/css/main.83141aba.css.map",
+    "main.c7e9c91d.js.map": "/KyteDashboard-App/static/js/main.c7e9c91d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83141aba.css",
+    "static/js/main.c7e9c91d.js"
+  ]
+}
