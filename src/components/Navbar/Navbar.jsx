@@ -10,8 +10,8 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navWrapper">
         <div className="searchWrapper">
-          <input type="text" placeholder="Search..." />
-          <SearchOutlinedIcon style={{color:'#FFFFFF', opacity: '0.5'}}/>
+          <input type="text" placeholder="Search..." style={{position: 'absolute', width: '85%'}}/>
+          <SearchOutlinedIcon style={{color:'#FFFFFF', opacity: '0.5', position: 'absolute', right: '10px', cursor: 'pointer'}}/>
         </div>
         <div className="notificWrapper">
           <NotificationsIcon className="notif_icon" />

@@ -24,6 +24,7 @@
   height: 25px;
   border-radius: 7px;
   padding: 3px 10px;
+  position: relative;
 }
 
 /* Notification styling */
